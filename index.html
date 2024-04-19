@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=0">
+    <title>MedCenter - B7Web</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/index.css">
+
+    <script type="text/javascript">
+        window.onload = function(){
+            document.querySelector(".menuMobile").addEventListener("click", function(){
+                if(document.querySelector(".menu nav ul").style.display == 'flex') {
+                    document.querySelector(".menu nav ul").style.display = 'none';
+                }
+                else {
+                    document.querySelector(".menu nav ul").style.display = 'flex';
+                }
+            })
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href=""> <img width="230px" src="./assets/img/logo.png"> </a>
+            </div>
+            <div class="menu">
+                <div class="menuMobile">
+                    <div class="mm-line"></div>
+                    <div class="mm-line"></div>
+                    <div class="mm-line"></div>
+                </div> <!--Botão que funciona no media max-w 600px-->
+                <nav>
+                    <ul>
+                        <li class="active"><a href="">HOME</a></li>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">HOME</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section id="banner">
+        <div class="container column">
+            <div class="banner_headline">
+                <h1>Top notch experience</h1>
+                <h2>Medceneter is a responsive template perfect for all screen sizes</h2>
+            </div>
+            <div class="banner-options">
+                <div class="banner1">
+                    <div class="banner_title">Emergency Case</div>
+                    <div class="banner_desc">Algum texto qualquer</div>
+                    <a href="" >Read More</a>
+                </div>
+                <div class="banner2">
+                    <div class="banner_title">Doctor Timetable</div>
+                    <div class="banner_desc">Algum texto qualquer</div>
+                    <a href="" >Read More</a>
+                </div>
+                <div id="banner3" class="banner3">
+                    <div class="banner_title">Horário de Abertura</div>
+                    <div class="banner_days">
+                        <p>Segunda-Sexta</p>  
+                        <p>8:00</p>
+                    </div>
+                    <div class="banner_days">
+                        <p>Sábado</p>  
+                        <p>9:30</p>
+                    </div>
+                    <div class="banner_days">
+                        <p>Domingo</p>  
+                        <p>9:30</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="geral">
+        <div class="container">
+            <section>
+                <div class="widget">
+                    <div class="widget-title">
+                        <div class="widget-title-text">Últimas notícias</div>
+                        <div id="widget-title-bar" class="widget-title-bar"></div>
+
+                    <div class="widget-body flex"> <!-- Aqui começa o contúdo de fato-->
+                       
+                        <article>
+                            <a href="">
+                                <div class="news-data">
+                                    <div class="news-posted-at">01 JAN 01</div>
+                                    <div class="news-comments">2</div>
+                                </div>
+
+                                <div class="news-thumb">
+                                    <img src="./assets/img/pronto-atendimento.png" />
+                                </div>
+                                <div class="news-title">
+                                    Lorem ipsum amt sit it velum
+                                </div>
+                                <div class="news-resume">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.
+                                </div>
+                            </a>
+                        </article>
+
+                        <article>
+                            <a href="">
+                                <div class="news-data">
+                                    <div class="news-posted-at">01 JAN 01</div>
+                                    <div class="news-comments">2</div>
+                                </div>
+
+                                <div class="news-thumb">
+                                    <img src="./assets/img/pronto-atendimento.png" />
+                                </div>
+                                <div class="news-title">
+                                    Lorem ipsum amt sit it velum
+                                </div>
+                                <div class="news-resume">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.
+                                </div>
+                            </a>
+                        </article>
+
+                        <article>
+                            <a href="">
+                                <div class="news-data">
+                                    <div class="news-posted-at">01 JAN 01</div>
+                                    <div class="news-comments">2</div>
+                                </div>
+
+                                <div class="news-thumb">
+                                    <img src="./assets/img/pronto-atendimento.png" />
+                                </div>
+                                <div class="news-title">
+                                    Lorem ipsum amt sit it velum
+                                </div>
+                                <div class="news-resume">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.
+                                </div>
+                            </a>
+                        </article>
+
+                        <article>
+                            <a href="">
+                                <div class="news-data">
+                                    <div class="news-posted-at">01 JAN 01</div>
+                                    <div class="news-comments">2</div>
+                                </div>
+
+                                <div class="news-thumb">
+                                    <img src="./assets/img/pronto-atendimento.png" />
+                                </div>
+                                <div class="news-title">
+                                    Lorem ipsum amt sit it velum
+                                </div>
+                                <div class="news-resume">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.
+                                </div>
+                            </a>
+                        </article>
+
+                    </div>
+
+                    </div>
+                </div>
+            </section>
+            <aside>
+                <div class="widget">
+                    <div class="widget-title">
+                        <div class="widget-title-text">Departamentos</div> <!--Departamentos e contatos ficou de tema-->
+                        <div class="widget-title-bar"></div>
+                    </div>
+
+                    <div id="container-departamentos" class="widget-body"> <!--Quadradinhos-->
+                        <div class="content-departamentos"></div>
+                        <div class="content-departamentos"></div>
+                        <div class="content-departamentos"></div>
+                        <div class="content-departamentos"></div>
+                        <div class="content-departamentos"></div>
+                        <div class="content-departamentos"></div>
+                    </div>
+
+                </div>
+
+                <div class="widget">
+                    <div class="widget-title">
+                        <div class="widget-title-text">Entre em contato</div><!--Tema tbm-->
+                        <div class="widget-title-bar"></div>
+                    </div>
+
+
+                    <div class="widget-body">
+                        <p id="subtitle-contato">Lorem ipsum dolor sit amet, ornare non sem.Ut condimentum congue maximus. </p> <!--Subtitulo-->
+                        <div class="content-contato">
+                            <img src="./assets/img/wall-phone.png" alt="telefone">
+                            <p>Telefone: <strong>55 51 98491-0673</strong></p>
+                        </div>
+                        <div class="content-contato">
+                            <img src="./assets/img/mail.png" alt="email">
+                            <p>Email: <a href="">allanamszczpanski@gmail.com</a></p>
+                        </div>
+                        <div class="content-contato">
+                            <img src="./assets/img/calendar.png" alt="telefone">
+                            <p>Confira nossos <a href="#banner3">horários de atendimento</a></p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </aside>
+        </div>
+    </section>
+    <footer>
+        <div class="container flexcolumn">
+            <div class="footer-menu">
+                <div class="fm1">
+                    <div class="banner_title">Healt Insurance</div>
+                    <div class="banner_desc"><a href=""> texto qualquer escrito aqui → </a></div>
+                </div>
+                <div class="fm2">
+                    <div class="banner_title">Medical Records</div>
+                    <div class="banner_desc"><a href=""> texto qualquer escrito aqui → </a></div>
+                </div>
+                <div class="fm3">
+                    <div class="banner_title">Online alguma coisa</div>
+                    <div class="banner_desc"><a href=""> texto qualquer escrito aqui → </a></div>
+                </div>
+            </div>
+
+            <div class="footer-area">
+                <div class="footer-areaitem">
+                    <div class="widget">
+                        <div class="widget-title">
+                            <div class="widget-title-text">Medicenter Clinic</div>
+                            <div class="widget-title-bar"></div>
+                        </div>
+    
+                        <div class="body-areaitem1">
+                            <p style="margin-bottom: 20px;">Mauris ips lud int a sut fort ti niel aigman it peux de la course an thi harr ptir yo se qe no se piude a baizar. </p>
+                            <div class="medicenterclinic">Medicenter Clinic</div>
+                            <div class="medicenterclinic"> <p>33 Fralane Street</p> <p>55 51 9999999</p> </div>
+                            <div class="medicenterclinic"> <p>33 Keilor East</p> <p>55 51 9999999</p></div>
+                            <div class="medicenterclinic"> <p>VIC 3033, Austrália</p> <p style="color: #fff;">umemailaleat@gmail.com</p> </div>
+                        </div>
+    
+                    </div>
+                </div>
+                <div class="footer-areaitem">
+                    <div class="widget">
+                        <div class="widget-title">
+                            <div class="widget-title-text">Latests Posts</div>
+                            <div class="widget-title-bar"></div>
+                        </div>
+    
+                        <div class="body-areaitem2">
+                            <p class="ultimos-posts-titulo">dfkjsdfsdkf sdebfjkdsfksn kjdfsjfkjsdfn fdnskjfdnsfjds fdns jdshjdjasojds hfjhds</p> <p class="anos-antes">6 years ago</p>
+                            <p class="ultimos-posts-titulo">dfkjsdfsdkf sdebfjkdsfksn kjdfsjfkdshjdjasojds hfjhds</p> <p class="anos-antes">6 years ago</p>
+                            <p class="ultimos-posts-titulo">sfjds fdns jdshjdjasojds hfjhds</p> <p class="anos-antes">6 years ago</p>
+                        </div>
+    
+                    </div>
+                </div>
+                <div class="footer-areaitem">
+                    <div class="widget">
+                        <div class="widget-title">
+                            <div class="widget-title-text">Latests tweets</div>
+                            <div class="widget-title-bar"></div>
+                        </div>
+    
+                        <div class="body-areaitem3">
+                            <p class="ultimos-posts-titulo">dfkjsdfsdkf sdebfjkdsfksn kjdfsjfkjsdfn fdnskjfdnsfjds fdns jdshjdjasojds hfjhds</p> <p class="anos-antes">1 day ago</p>
+                            <p class="ultimos-posts-titulo">dfkjsdfsdkf sdebfjkdsfksn kjdfsjfkdshjdjasojds hfjhds</p> <p class="anos-antes">5 days ago</p>
+                            <p class="ultimos-posts-titulo">sfjds fdns jdshjdjasojds hfjhds</p> <p class="anos-antes">4 days ago</p>
+                        </div>
+    
+                    </div>
+                </div>   
+            </div>
+
+            <div class="footer-copy">
+                Copyright - Todos os direitos reservados
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+</html>
